@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!--Ken Wheeler Slick-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Oswald:wght@700&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="Addon/slick.css">
+
+</head>
+
+<body>
+
+
+    <!--Navigation Menu-->
+    <div class="section border-botom">
+        <div class="container">
+            <div class="top-nav-menu" id="top-nav-menu">
+                <div class="row">
+                    <div class="col-6">
+                        <a href=""><img src="Assets/IMG/Logo.png" class="logo" alt="logo"></a>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <div class="Top-menu-container d-flex align-self-center">
+                            <img src="Assets/IMG/login-icon.svg" alt="Logo" class="img-nav">
+                            <a href="#">Log in</a>
+                        </div>
+                        <div class="Top-menu-container d-flex align-items-md-center">
+                            <img src="Assets/IMG/cart-icon.svg" alt="Logo" class="img-nav">
+                            <a href="#">0</a>
+                        </div>
+                        <div class="menu">
+                            <div class="Top-menu-container d-flex align-items-md-center burger-menu">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                                </svg>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Side Menu-->
+        <div class="nav-menu">
+            <div class="menu-item-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" fill="currentColor"
+                    class="bi bi-x x-close" viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+                <div class="menu-item top-menu-sidebar">
+                    <div class="d-flex">
+                        <div><img src="Assets/IMG/Phone-icon.svg" alt=""></div>
+                        <a href="tel:+6280011126" class="bold phone">0800 111 26</a>
+                    </div>
+                    <div>
+                        <p class="phone-desc">8:00 - 22:00</p>
+                    </div>
+                </div>
+                <div class="menu-item"><a href="">Delivery info</a></div>
+                <div class="menu-item"><a href="">About us</a></div>
+                <div class="menu-item"><a href="">Restaurants</a></div>
+                <div class="menu-item"><a href="">Specialites</a></div>
+                <div class="menu-languange d-flex">
+                    <p>English</p>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Hero Section-->
+    <div class="sectionhero hero-background">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div>
+                        <div class="hero-title">
+                            <h1>Your Food court at home</h1>
+                            <div class="d-flex hero-button-container">
+                                <div class="button-hero text-center">
+                                    <a href="#">
+                                        <p class="bold hero-button-upper">Delivery</p>
+                                        <p class="hero-button-lower">Order in</p>
+                                    </a>
+                                </div>
+
+                                <div class="button-hero text-center">
+                                    <a href="#">
+                                        <p class="bold hero-button-upper">Takeout</p>
+                                        <p class="hero-button-lower">Grab and go</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7"></div>
+            </div>
+        </div>
+
+        <div class="hero-featured-background">
+            <div class=" hero-featured  d-flex">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="d-flex hero-featured-container">
+                            <img src="Assets/IMG/food-clock-icon.svg" alt="" class="hero-feautred-icon">
+                            <p>delivery in all paris in less than 30 minutes</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="d-flex hero-featured-container">
+                            <img src="Assets/IMG/delivery-icon.svg" alt="" class="hero-feautred-icon">
+                            <p>Free delivery from 29 euros</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="d-flex hero-featured-container">
+                            <img src="Assets/IMG/heart-tower-icon.svg" alt="" class="hero-feautred-icon">
+                            <p>Only fresh and French products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="justify-content-between d-flex">
+                <div>
+                    <h2>Restaurants</h2>
+                </div>
+                <div>
+                    <div class="secondary-button text-center object-fit-contain">
+                        <a href="#">Show all</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="">
+                            <div class="restaurant slider d-flex">
+                                <a href="#">
+                                    <div class="restaurant-container">
+                                        <img src="Assets/IMG/restaurant-photo-burger.png" alt="">
+                                        <img src="Assets/IMG/burger.png" alt="">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="restaurant-container">
+                                        <img src="Assets/IMG/Restaurant-photo-fried-rice.png" alt="">
+                                        <img src="Assets/IMG/il_paster.png" alt="">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="restaurant-container">
+                                        <img src="Assets/IMG//Restaurant-photo-salad.png" alt="">
+                                        <img src="Assets/IMG/Believe.png" alt="">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="restaurant-container">
+                                        <img src="Assets/IMG/Restaurant-photo-stir.png" alt="">
+                                        <img src="Assets/IMG/vietnamese.png" alt="">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="restaurant-container">
+                                        <img src="Assets/IMG/restaurant-photo-burger.png" alt="">
+                                        <img src="Assets/IMG/burger.png" alt="">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="restaurant-container">
+                                        <img src="Assets/IMG/Restaurant-photo-fried-rice.png" alt="">
+                                        <img src="Assets/IMG/il_paster.png" alt="">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="restaurant-container">
+                                        <img src="Assets/IMG//Restaurant-photo-salad.png" alt="">
+                                        <img src="Assets/IMG/Believe.png" alt="">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="restaurant-container">
+                                        <img src="Assets/IMG/Restaurant-photo-stir.png" alt="">
+                                        <img src="Assets/IMG/vietnamese.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider-wrapper">
+                                <div class="slider-navigation">
+                                    <div class="arrow_prev arrow"><img src="Assets/img/arrow-left.svg" alt="">
+                                    </div>
+                                    <div class="arrow_next arrow"><img src="Assets/img/arrow-right.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-cta">
+        <div class="container">
+            <div class="row cta">
+                <div class="col-md-6">
+                    <div class="justify-content-center">
+                        <h2>Your nearest restaurants</h2>
+                        <p class="desc">Each kitchen works with its own delivery area to deliver food to you as soon as
+                            possible</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex  justify-content-center">
+                        <form action="">
+                            <div class="d-flex input-form">
+                                <input type="text" placeholder="Enter delivery address">
+                                <div class="primary-button">send</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section specialities">
+        <div class="container">
+            <div class="justify-content-between d-flex">
+                <div>
+                    <h2>Specialites</h2>
+                </div>
+                <div>
+                    <div class="secondary-button text-center object-fit-contain">
+                        <a href="#">Show all</a>
+                    </div>
+                </div>
+            </div>
+            <div class="special-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="">
+                            <div class="speciality slider d-flex">
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/bagel-icon.svg" alt="">
+                                    <p>Bagel</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/burger-icon.png" alt="">
+                                    <p>Burger</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/chicken-icon.svg" alt="">
+                                    <p>Chicken</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/fish-icon.svg" alt="">
+                                    <p>Fish</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/fries-icon.svg" alt="">
+                                    <p>Fish'Chips</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/salad-icon.svg" alt="">
+                                    <p>Salads</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/pizza-icon.svg" alt="">
+                                    <p>Pizza</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/pasta-icon.svg" alt="">
+                                    <p>Pasta</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/bagel-icon.svg" alt="">
+                                    <p>Bagel</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/burger-icon.png" alt="">
+                                    <p>Burger</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/chicken-icon.svg" alt="">
+                                    <p>Chicken</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/fish-icon.svg" alt="">
+                                    <p>Fish</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/fries-icon.svg" alt="">
+                                    <p>Fish'Chips</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/salad-icon.svg" alt="">
+                                    <p>Salads</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/pizza-icon.svg" alt="">
+                                    <p>Pizza</p>
+                                </div>
+                                <div class="text-center specialities-container">
+                                    <img class="mx-auto d-block" src="Assets/IMG/pasta-icon.svg" alt="">
+                                    <p>Pasta</p>
+                                </div>
+
+
+
+                            </div>
+                            <div class="slider-wrapper-special">
+                                <div class="slider-navigation-special">
+                                    <div class="arrow_prev_special arrow_special"><img src="Assets/img/arrow-left.svg"
+                                            alt="">
+                                    </div>
+                                    <div class="arrow_next_special arrow_special"><img src="Assets/img/arrow-right.svg"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-lemon">
+        <div class="small-container">
+            <div class="d-flex">
+                <div class="mx-auto d-block lemon-desc-container">
+                    <div class="background-lemon2">
+                        <div class="background-lemon1">
+                            <h3 class="text-center">1</h3>
+                            <div>
+                                <p class="text-center">Kitchen</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto d-block lemon-desc-container">
+                    <div class="background-lemon2">
+                        <div class="background-lemon1">
+                            <h3 class="text-center">11</h3>
+                            <div>
+                                <p class="text-center">specialities</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto d-block lemon-desc-container">
+                    <div class="background-lemon2">
+                        <div class="background-lemon1">
+                            <h3 class="text-center">11</h3>
+                            <div>
+                                <p class="text-center">restaurants</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto d-block lemon-desc-container">
+                    <div class="background-lemon2">
+                        <div class="background-lemon1">
+                            <h3 class="text-center">1</h3>
+                            <div>
+                                <p class="text-center">transport costs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section map">
+        <div class="container">
+            <iframe class="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.048603007477!2d106.6188008116317!3d-6.257328093705065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fc7bb3f80e49%3A0xb9c0ec6ec8bf2671!2sCourse-Net%20Gading%20Serpong!5e0!3m2!1sen!2sid!4v1700647018645!5m2!1sen!2sid"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="section section-instagram">
+        <div class="container">
+            <h2>#YellowKitchens <span class="text-grey">in instagram</span></h2>
+            <div class="d-flex row">
+                <div class="instagram-container col-md-3">
+                    <a href=""><img src="Assets/IMG/instagram-photo-1.png" alt=""></a>
+                </div>
+                <div class="instagram-container col-md-3">
+                    <a href=""><img src="Assets/IMG/instagram-photo-2.png" alt=""></a>
+                </div>
+                <div class="instagram-container col-md-3">
+                    <a href=""><img src="Assets/IMG/instagram-photo-3.png" alt=""></a>
+                </div>
+                <div class="instagram-container col-md-3">
+                    <a href=""><img src="Assets/IMG/instagram-photo-4.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <div><a href=""><img class="logo" src="Assets/IMG/Logo-white.png" alt="logo"></a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div>
+                        <a href="">
+                            <h3>About us</h3>
+                        </a>
+                        <a href="" class="link-footer">
+                            <p>Concept</p>
+                        </a>
+                        <a href="" class="link-footer">
+                            <p>Franchise</p>
+                        </a>
+                        <a href="" class="link-footer">
+                            <p>Restaurant Signup</p>
+                        </a>
+                        <a href="" class="link-footer">
+                            <p>For Investors</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div>
+                        <a href="">
+                            <h3>Get help</h3>
+                        </a>
+                        <a href="" class="link-footer">
+                            <p>Read FAQs</p>
+                        </a>
+                        <a href="" class="link-footer">
+                            <p>Restaurants</p>
+                        </a>
+                        <a href="" class="link-footer">
+                            <p>Specialites</p>
+                        </a>
+                        <a href="" class="link-footer">
+                            <p>Signup to deliver</p>
+                        </a>
+                        <a href="">
+                            <div class="d-flex">
+                                <p>English</p> <i class="bi bi-chevron-down"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a href="">
+                            <h3>Contact us</h3>
+                        </a>
+                        <p>Yellow kitchen paris 11</p>
+                        <p>69 avenue de la republique 75011 <br>paris</p>
+                        <a href="tel+62800111126">
+                            <p>0800 111 126</p>
+                        </a>
+                        <a href="mailto:contact@yellowkitchens.com">
+                            <p>contact@yellowkitchens.com</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-foot-container d-flex row">
+                <div class=" col-md-6">
+                    <a href="#insta" class="social-media"><img src="Assets/IMG/insta.svg" alt="instagram"></a>
+                    <a href="#x" class="social-media"><img src="Assets/IMG/twitter.svg" alt="x"></a>
+                    <a href="#fb" class="social-media"><img src="Assets/IMG/fb.svg" alt="facebook"></a>
+                </div>
+
+                <div class="col-md-6 d-flex justify-content-around">
+                    <a href="" class="footer-foot">Privacy Policy</a>
+                    <a href="" class="footer-foot">Terms</a>
+                    <p>© 2020 Yellow kitchen</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--Jquery-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/query-string@8.1.0/index.min.js"></script>
+
+    <!--Slick-->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!--Ken Wheeler Slick-->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!--Javascript-->
+    <script src="JavaScript/index.js"></script>
+
+</body>
+
+</html>
